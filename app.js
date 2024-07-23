@@ -1,6 +1,6 @@
   // Preguntamos si desean que nos comuniquemos con ellos
   let tipoMaquinaria = prompt("¿Qué tipo de maquinaria deseas alquilar");
-  let numeroMaquinaria = prompt("¿Cuántos equipos necesitas");
+  let numeroMaquinaria = prompt("¿Cuántos equipos necesitas?");
   
 
   function rentaEquipos(tipoMaquinaria, numeroMaquinaria){
@@ -21,9 +21,9 @@
             let telefono = prompt("Déjanos tu número de teléfono:");
             alert("Nos comunicaremos al " + telefono + ". Gracias");
         }
-    }else(
-        alert("Lo sentimos no tenemos ese tipo equipo. Gracias causa")
-    )
+    }else{
+        alert("Lo sentimos no tenemos ese tipo equipo. Gracias")
+    }
   }
   rentaEquipos(tipoMaquinaria, numeroMaquinaria);
   

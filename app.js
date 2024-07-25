@@ -10,10 +10,10 @@
             alert("Lo sentimos no tenemos el stock disponible")
         }else{
             let telefono = prompt("Déjanos tu número de teléfono:");
-            alert("Nos comunicaremos al " + telefono);
+            alert("Nos comunicaremos al " + telefono + ". Gracias");
         }
     }
-    if(tipoMaquinaria == "retroexcavadora"){
+    else if(tipoMaquinaria == "retroexcavadora"){
         alert("El alquiler de la retroexcavadora está 70 dolares la hora");
         if( numeroMaquinaria > 3){
             alert("Lo sentimos no tenemos el stock disponible")
